@@ -1,0 +1,110 @@
+/* # GENERICS */
+:root {
+    --violet: #7289da;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+
+/* # HEADER  */
+header {
+    color: #fff;
+    background-color: #582AF4;
+}
+
+header .topbar {
+    height: 80px;
+
+    margin: 0 auto;
+    max-width: 1200px;
+
+    display: flex;
+}
+
+header .topbar .logo-column {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header .topbar .logo-column img {
+    display: block;
+}
+
+header .topbar .menu-column {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .topbar .button-column {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.topbar .main-menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.topbar .main-menu li {
+    font-size: 14px;
+    margin: 0 20px;
+}
+
+.topbar .main-menu a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.topbar .main-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Bottoni */
+
+.btn {
+    display: inline-block;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: var(--violet);
+}
+
+.btn.btn-white {
+    color: black;
+    background-color: #fff;
+}
+
+.btn.btn-small {
+    font-size: 14px;
+    padding: 10px 15px;
+}
