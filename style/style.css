@@ -108,3 +108,32 @@ header .topbar .button-column {
     font-size: 14px;
     padding: 10px 15px;
 }
+
+/* # JUMBOTRON */
+
+#jumbotron {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/jumbo.png);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#jumbotron .content {
+    width: 50%;
+    text-align: center;
+}
+
+#jumbotron h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+#jumbotron p {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
