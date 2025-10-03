@@ -26,6 +26,41 @@ h5 {
     font-size: 16px;
 }
 
+/* LAYOUT */
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.container .small-column {
+    padding: 40px;
+    width: 40%;
+}
+
+.container .big-column {
+    padding: 40px;
+    width: 60%;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+/* SPACING CLASS */
+
+.ml-2 {
+    margin-left: 0.8rem;
+}
+
+.ml-3 {
+    margin-left: 1rem;
+}
+
 
 /* # HEADER  */
 header {
@@ -109,6 +144,20 @@ header .topbar .button-column {
     padding: 10px 15px;
 }
 
+.btn.btn-dark {
+    color: white;
+    background-color: #23272a;
+}
+
+.btn.btn-big {
+    padding: 15px 20px;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    color: #3161e0;
+}
+
 /* # JUMBOTRON */
 
 #jumbotron {
@@ -136,4 +185,45 @@ header .topbar .button-column {
     font-size: 20px;
     line-height: 32px;
     margin-bottom: 30px;
+}
+
+/* MAIN */
+
+main section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+main section:last-child {
+    padding-bottom: 150px;
+}
+
+main h2 {
+    font-size: 48px;
+    margin: 30px 0;
+}
+
+main p {
+    line-height: 150%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.full-page-text {
+    padding: 0 100px;
+}
+
+.full-page-image {
+    width: 100%;
+}
+
+
+/*  EFFECTS */
+
+.wave {
+    height: 100px;
+    filter: opacity(0.04);
+    background-image: url(../img/wave.svg);
 }
